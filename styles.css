@@ -17,7 +17,7 @@ body {
 
 #bg {
   position:absolute;
-  /* background-image: url("_images/main.jpg"); */
+  /* background-image: url("images/main.jpg"); */
   background: #FDF3E7;
   opacity: 0.5;
   -webkit-background-size: cover;
@@ -37,7 +37,7 @@ body {
 
 
 body::after {
-  content: url("_images/leadership.jpg");
+  content: url("images/leadership.jpg");
   display: none;
 }
 
@@ -96,7 +96,7 @@ li {
 }
 
 /* #hexagon:hover ~ #bg{
-  background-image: url("_images/main.jpg");
+  background-image: url("images/main.jpg");
   transition: .5s ease;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(80%);
@@ -362,7 +362,7 @@ p.description {
 }
 
 .leadershipParallax{
-  background-image: url('_images/leadership.jpg');
+  background-image: url('images/leadership.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
@@ -372,7 +372,7 @@ p.description {
 }
 
 .curricularParallax{
-  background-image: url('_images/curricular.jpg');
+  background-image: url('images/curricular.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
