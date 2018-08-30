@@ -314,6 +314,7 @@ p{
 }
 
 #resumeLogo h1{
+  margin-top: 50;
   margin-bottom: -50;
 } 
 
@@ -361,7 +362,27 @@ p.description {
   margin-bottom: 50;
 }
 
-.leadershipParallax{
+#headerParallax{
+  background-image: url('images/ResumeCover.jpg');
+  height: 700; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .7;
+}
+
+#experienceParallax{
+  background-image: url('images/experience.jpg');
+  height: 15%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .5;
+}
+
+#leadershipParallax{
   background-image: url('images/leadership.jpg');
   height: 15%; 
   background-attachment: fixed;
@@ -371,7 +392,7 @@ p.description {
   opacity: .5;
 }
 
-.curricularParallax{
+#curricularParallax{
   background-image: url('images/curricular.jpg');
   height: 15%; 
   background-attachment: fixed;
@@ -379,6 +400,11 @@ p.description {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .5;
+}
+
+.info{
+  z-index:2;
+  position: relative;
 }
 
 #header{
@@ -403,3 +429,26 @@ p.description {
   top: 200px;
   left: 200px;
 } */
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centeredInfo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  font-size: 100;
+  color: black;
+  text-align: center;
+  margin-top: 100;
+  text-shadow: 2px 2px white;
+}
