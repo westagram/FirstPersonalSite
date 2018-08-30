@@ -1,6 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -8,10 +9,6 @@
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="parallax.min.js"></script>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -26,8 +23,16 @@
 
 
 <div class="container">
-        <div id="headerParallax"></div>
-        <div class="centeredInfo">ABOUT ME</div>
+    <div id="headerParallax"></div>
+    <div class="centeredInfo">ABOUT ME</div>
+    <div id="pageBar">
+        <ul>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Curricular</a></li>
+        </ul>
+    </div>
 </div>
 
 
@@ -108,6 +113,20 @@
  
 <script src="script.js"></script>
 </div>
+
+
+
+<button class="cn-button" id="cn-button">+</button>
+<div class="cn-wrapper" id="cn-wrapper">
+   <ul>
+       <li><a href="#"><span class="icon-picture"></span></a></li>
+       <li><a href="#"><span class="icon-headphones"></span></a></li>
+       <li><a href="#"><span class="icon-home"></span></a></li>
+       <li><a href="#"><span class="icon-facetime-video"></span></a></li>
+       <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+   </ul>
+</div>
+<div id="cn-overlay" class="cn-overlay"></div>
 
 
 
