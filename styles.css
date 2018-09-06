@@ -398,17 +398,33 @@ p{
 }
 
 .skillType ul h5{
+
+  font-size: 20;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  /* margin-left: 20px; */
+  /* font-weight: normal; */
+  display: inline-block;
+
+}
+
+.skillType ul h6{
   font-size: 20;
   margin-bottom: 20px;
   margin-top: 10px;
   /* margin-left: 20px; */
   font-weight: normal;
+  display: inline-block;
+
 }
 
 .skillType ul li {
   display: inline-block;
   text-align: center;
+
 }
+
 
 #skillIcon {
   color: black;
@@ -423,7 +439,7 @@ p{
 
 .skillType ul li p {
   margin-left: 50px;
-  margin-top: 0;
+  margin-top: 10;
   margin-bottom: 5px;
   transition: .5s;
   /* display: block; */
@@ -520,6 +536,17 @@ p.description {
   /* filter: contrast(150%); */
 }
 
+#educationParallax{
+  background-image: url('images/education.jpg');
+  height: 15%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .5;
+  /* filter: brightness(60%); */
+}
+
 #experienceParallax{
   background-image: url('images/experience.jpg');
   height: 15%; 
@@ -529,7 +556,6 @@ p.description {
   background-size: cover;
   opacity: .5;
   /* filter: contrast(150%); */
-
 }
 
 #leadershipParallax{
@@ -606,7 +632,7 @@ p.description {
 } 
 
 #pageBar ul li{
-  width: 150px;
+  width: 120px;
   height: 50px;
   line-height: 50px;
   text-align: center;
@@ -805,3 +831,108 @@ p.description {
 #contactSocialLinkedin:hover{
   background: #007bb5; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lifestyleParallax{
+  /* background-image: url('images/lifestyle1.jpg'); */
+  height: 700; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(60%) brightness(50%) contrast(150%);
+  filter:blur(1);
+}
+
+#photographyParallax{
+  background-image: url('images/photography.jpg');
+  height: 15%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .5;
+  /* filter: contrast(150%); */
+}
+
+#carParallax{
+  background-image: url('images/car.jpg');
+  height: 15%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .5;
+  margin-top: 80px;
+  /* filter: contrast(150%); */
+}
+
+
+#lifestyle .row img {
+  width: 200;
+  height: 135;
+  background-size: cover;
+  filter: grayscale(60%) brightness(65%) contrast(120%);
+  transition: .5s;
+}
+
+#lifestyle .row img:hover {
+  filter: none;
+}
+
+#lifestyle{
+  text-align: center;
+  white-space: nowrap;
+}
+
+#photography h3 {
+  margin-top: 0;
+  margin-bottom: 30;
+}
+
+#car img {
+  filter: grayscale(100%) contrast(150%);
+  margin-bottom: 60;
+  transition: 1s;
+}
+
+#car img:hover {
+  filter: grayscale(0) contrast(110%);
+}
+
+
+
+/* .column {
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding: 5px;
+} */
+
+/* .row::after { */
+  /* content: "";
+  clear: both;
+  display: table; */
+/* } */
+
