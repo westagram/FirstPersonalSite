@@ -18,7 +18,7 @@ body {
 
 
 body::after {
-  content: url("images/leadership.jpg");
+  content: url("../images/leadership.jpg");
   display: none;
 }
 
@@ -583,7 +583,7 @@ p.description {
 }
 
 #headerParallax{
-  background-image: url('images/ResumePage.jpg');
+  background-image: url('../images/ResumePage.jpg');
   height: 700; 
   background-attachment: fixed;
   background-position: center;
@@ -596,7 +596,7 @@ p.description {
 }
 
 #educationParallax{
-  background-image: url('images/education.jpg');
+  background-image: url('../images/education.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
@@ -607,7 +607,7 @@ p.description {
 }
 
 #experienceParallax{
-  background-image: url('images/experience.jpg');
+  background-image: url('../images/experience.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
@@ -618,7 +618,7 @@ p.description {
 }
 
 #leadershipParallax{
-  background-image: url('images/leadership.jpg');
+  background-image: url('../images/leadership.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
@@ -629,7 +629,7 @@ p.description {
 }
 
 #curricularParallax{
-  background-image: url('images/curricular.jpg');
+  background-image: url('../images/curricular.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
@@ -783,7 +783,7 @@ p.description {
 }
 
 #contactParallax{
-  background-image: url('images/contact.jpg');
+  background-image: url('../images/contact.jpg');
   height: 700; 
   background-attachment: fixed;
   background-position: center;
@@ -916,7 +916,7 @@ p.description {
 }
 
 #lifestyleParallax{
-  background-image: url('images/lifestyle.jpg');
+  background-image: url('../images/lifestyle.jpg');
   height: 700; 
   background-attachment: fixed;
   background-position: center;
@@ -927,7 +927,7 @@ p.description {
 }
 
 #photographyParallax{
-  background-image: url('images/photography.jpg');
+  background-image: url('../images/photography.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
@@ -938,7 +938,7 @@ p.description {
 }
 
 #carParallax{
-  background-image: url('images/car.jpg');
+  background-image: url('../images/car.jpg');
   height: 15%; 
   background-attachment: fixed;
   background-position: center;
