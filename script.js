@@ -14,3 +14,8 @@ $(window).on("load",function() {
       });
     }).scroll(); //invoke scroll-handler on page-load
   });
+
+
+$(document).ready(function(){
+  $('#hexagon').delay(3500).fadeIn(3000);
+});

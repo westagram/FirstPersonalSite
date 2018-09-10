@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="lightbox.css" rel="stylesheet"> <!-- lightbox -->
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <title>Wesley Hoang</title>
@@ -34,6 +35,12 @@
 
 <div id = "lifestyle">
     <h1 class="fade" id="dance">&#8213; Dance &#8213;</h1>
+    <div class="row">
+        <img src="images/lifestyleLVO.jpg">
+        <img src="images/lifestyleCG.jpg">
+        <img src="images/lifestyleTH.jpg">
+    </div>
+
 
     <div id="photographyParallax"></div>
     <h1 class="fade">&#8213; Photography &#8213;</h1>
@@ -42,28 +49,43 @@
         <br>Hover over the image to view my sample gallery!</h3>
 
         <div class="row">
-            <img src="images/photography/cg1.jpg">
-            <img src="images/photography/pumpkin1.jpg">
-            <img src="images/photography/sequoia2.jpg">
-            <img src="images/photography/la2.jpg">
+            <a href="images/photography/cg1.jpg" data-lightbox="sampleGallery"><img src="images/photography/cg1.jpg"></a>
+            <a href="images/photography/pumpkin1.jpg" data-lightbox="sampleGallery"><img src="images/photography/pumpkin1.jpg"></a>
+            <a href="images/photography/sequoia2.jpg" data-lightbox="sampleGallery"><img src="images/photography/sequoia2.jpg"></a>
+            <a href="images/photography/la2.jpg" data-lightbox="sampleGallery"><img src="images/photography/la2.jpg"></a>
         </div>
         <div class="row">
-            <img src="images/photography/sd1.jpg">
+            <a href="images/photography/sd1.jpg" data-lightbox="sampleGallery"><img src="images/photography/sd1.jpg"></a>
+            <a href="images/photography/la1.jpg" data-lightbox="sampleGallery"><img src="images/photography/la1.jpg"></a>
+            <a href="images/photography/cg2.jpg" data-lightbox="sampleGallery"><img src="images/photography/cg2.jpg"></a>
+            <a href="images/photography/sequoia3.jpg" data-lightbox="sampleGallery"><img src="images/photography/sequoia3.jpg"></a>
+            
+            <!-- <img src="images/photography/sd1.jpg">
             <img src="images/photography/la1.jpg">
             <img src="images/photography/cg2.jpg">
-            <img src="images/photography/sequoia3.jpg">
+            <img src="images/photography/sequoia3.jpg"> -->
         </div>
         <div class="row">
-            <img src="images/photography/vsa1.jpg">
+            <a href="images/photography/vsa1.jpg" data-lightbox="sampleGallery"><img src="images/photography/vsa1.jpg"></a>
+            <a href="images/photography/cg4.jpg" data-lightbox="sampleGallery"><img src="images/photography/cg4.jpg"></a>
+            <a href="images/photography/sequoia1.jpg" data-lightbox="sampleGallery"><img src="images/photography/sequoia1.jpg"></a>
+            <a href="images/photography/pumpkin2.jpg" data-lightbox="sampleGallery"><img src="images/photography/pumpkin2.jpg"></a>
+                
+            <!-- <img src="images/photography/vsa1.jpg">
             <img src="images/photography/cg4.jpg">
             <img src="images/photography/sequoia1.jpg">
-            <img src="images/photography/pumpkin2.jpg">
+            <img src="images/photography/pumpkin2.jpg"> -->
         </div>
         <div class="row">
-            <img src="images/photography/cg3.jpg">
+            <a href="images/photography/cg3.jpg" data-lightbox="sampleGallery"><img src="images/photography/cg3.jpg"></a>
+            <a href="images/photography/la3.jpg" data-lightbox="sampleGallery"><img src="images/photography/la3.jpg"></a>
+            <a href="images/photography/vsa2.jpg" data-lightbox="sampleGallery"><img src="images/photography/vsa2.jpg"></a>
+            <a href="images/photography/sd2.jpg" data-lightbox="sampleGallery"><img src="images/photography/sd2.jpg"></a>
+
+            <!-- <img src="images/photography/cg3.jpg">
             <img src="images/photography/la3.jpg">
             <img src="images/photography/vsa2.jpg">
-            <img src="images/photography/sd2.jpg">
+            <img src="images/photography/sd2.jpg"> -->
         </div>
     </div>
     
@@ -84,6 +106,7 @@
     </div>
 
 <script src="script.js"></script>
+<script src="lightbox.js"></script>
 </div>
 
 
@@ -95,8 +118,8 @@
     <img src="images/MainLogo.png" alt="logo" class="dropbtn">
     <div class="dropdown-content">
         <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
         <a href="resume.html">Resume</a>
-        <a href="porfolio.html">Portfolio</a>
         <a href="lifestyle.html">Lifestyle</a>
         <a href="contact.html">Contact Me</a>
     </div>

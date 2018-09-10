@@ -120,6 +120,7 @@ to{border-right-color: transparent;}
   width: 60px;
   transform-origin: center;
   transform: scale(1.5); 
+  display:none;
   /* z-index: -1; */
   box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
@@ -449,7 +450,7 @@ p{
 .skillType ul h5{
 
   font-size: 20;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
   margin-left: 50px;
   /* margin-left: 20px; */
@@ -461,7 +462,7 @@ p{
 
 .skillType ul h6{
   font-size: 20;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
   /* margin-left: 20px; */
   font-weight: normal;
@@ -482,6 +483,7 @@ p{
   font-size: 75px;
   transition: .5s;
   margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 #skillIcon:hover, .skillType ul li:hover p {
