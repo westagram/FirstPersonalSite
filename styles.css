@@ -32,6 +32,8 @@ h1 {
   text-align: center;
   margin-top: 50;
   text-shadow: 2px 2px white;
+  white-space: nowrap;
+
 }
 
 h2 {
@@ -43,6 +45,8 @@ h2 {
   text-align: center;
   margin-top: -30;
   text-shadow: 2px 2px white;
+  white-space: nowrap;
+
 }
 
 a {
@@ -59,8 +63,52 @@ li {
   list-style-type: none;
 }
 
-/*=================================== container 
-*/
+
+
+
+.line{
+  position: relative;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+#typewriter{
+animation: typewriter 2s steps(44) 1s 1 normal both,
+           blinkTextCursor 800ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 8em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(0, 0, 0, 0.75);}
+to{border-right-color: transparent;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #hexagon {
   position: relative;
@@ -391,10 +439,11 @@ p{
 }
 
 .skillType ul h4{
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 20px;
   margin-top: 10px;
   color: rgb(30, 37, 145);
+  white-space: nowrap;
 }
 
 .skillType ul h5{
@@ -406,6 +455,7 @@ p{
   /* margin-left: 20px; */
   /* font-weight: normal; */
   display: inline-block;
+  white-space: nowrap;
 
 }
 
@@ -416,6 +466,7 @@ p{
   /* margin-left: 20px; */
   font-weight: normal;
   display: inline-block;
+  white-space: nowrap;
 
 }
 
@@ -442,6 +493,8 @@ p{
   margin-top: 10;
   margin-bottom: 5px;
   transition: .5s;
+  white-space: nowrap;
+
   /* display: block; */
 }
 
@@ -476,6 +529,8 @@ p{
 #resumeLogo h1{
   /* margin-top: 50; */
   margin-bottom: -50;
+  white-space: nowrap;
+
 } 
 
 .fade {
@@ -490,6 +545,7 @@ p{
 .fade p , .fade h3{
   margin-left: 300;
   text-shadow: none;
+  
 }
 
 .fade h3{
@@ -497,6 +553,7 @@ p{
   font-weight: bold;
   font-size: 30;
   margin-bottom: -95;
+  
 }
 
 .fade p {
@@ -852,10 +909,12 @@ p.description {
 
 
 
-
+#LifestylePage{
+  background-color: white;
+}
 
 #lifestyleParallax{
-  /* background-image: url('images/lifestyle1.jpg'); */
+  background-image: url('images/lifestyle.jpg');
   height: 700; 
   background-attachment: fixed;
   background-position: center;
