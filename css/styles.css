@@ -782,7 +782,31 @@ p.description {
   background: white;
 }
 
-#contactParallax{
+#ContactPage:before {
+  content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+  background-image: url('../images/contact.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -webkit-filter: blur(1);
+  -moz-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -moz-filter: blur(1);
+  -o-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -o-filter: blur(1);
+  -ms-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -ms-filter: blur(1);
+  filter: grayscale(60%) brightness(50%) contrast(150%);
+  filter:blur(1);
+  z-index: -9;
+}
+
+
+/* #contactParallax{
   background-image: url('../images/contact.jpg');
   height: 700; 
   background-attachment: fixed;
@@ -791,7 +815,7 @@ p.description {
   background-size: cover;
   filter: grayscale(60%) brightness(50%) contrast(150%);
   filter:blur(1);
-}
+} */
 
 #contactMessage {
   position: absolute;
@@ -950,6 +974,29 @@ p.description {
 }
 
 
+.danceText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.danceContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#danceRow img {
+  width: 300;
+  height: 200;
+  background-size: cover;
+  filter: grayscale(60%) brightness(65%) contrast(120%);
+  transition: .5s;
+  margin-bottom: 20px;
+}
+
+
 #lifestyle .row img {
   width: 200;
   height: 135;
@@ -997,3 +1044,161 @@ p.description {
   display: table; */
 /* } */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#AboutPage{
+  background: white;
+}
+
+#AboutPage:before {
+  content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+  background-image: url('../images/about.jpg');
+  /* background-color:black; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -webkit-filter: blur(1);
+  -moz-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -moz-filter: blur(1);
+  -o-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -o-filter: blur(1);
+  -ms-filter: grayscale(60%) brightness(50%) contrast(150%);
+  -ms-filter: blur(1);
+  filter: grayscale(60%) brightness(50%) contrast(150%);
+  filter:blur(1);
+  z-index: -9;
+}
+
+.aboutInfo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: 0; */
+  right: 20;
+  top: 120px;
+  white-space: nowrap;
+
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  font-size: 50;
+  color: white;
+  margin-top: 100;
+  text-shadow: 2px 2px 1px #000000;
+}
+
+
+#aboutMessage {
+  position: absolute;
+  margin-left: auto;
+  margin-right: 20;
+  /* left: 0; */
+  right: 0;
+  top: 200px;
+  white-space: nowrap;
+
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  font-size: 20;
+  color: white;
+  margin-top: 100;
+  text-align: justify;
+  text-shadow: 2px 2px 1px #000000;
+}
+
+#aboutMessage a:link{
+  color: red;
+}
+
+#aboutMessage a:visited{
+  color: red;
+}
+
+#AboutPageBar {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 750px;
+  white-space: nowrap;
+  margin-bottom: 50px;
+}
+
+#AboutPageBar ul {
+  display: inline-block;
+  list-style-type: none;
+} 
+
+#AboutPageBar ul li{
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background: rgba(140,140,140,0.7); 
+  font-size:15px;
+  position: relative;
+
+  border: 1px solid white;
+  border-radius: 26px;
+  transition: .5s;
+}
+
+#AboutPageBar ul li a{
+  margin: 0px; 
+  display: block; 
+  width: 100%; 
+  height: 100%;
+  transition: .5s;
+}
+
+#AboutPageBar ul li a:link{
+  color: white;
+}
+
+#AboutPageBar ul li a:visited{
+  color: white;
+}
+
+#AboutPageBar ul li:hover{
+  background: rgba(255, 255, 255, 0.897); 
+}
+
+#AboutPageBar ul li:hover a{
+  color: black;
+}

@@ -19,3 +19,8 @@ $(window).on("load",function() {
 $(document).ready(function(){
   $('#hexagon').delay(3500).fadeIn(3000);
 });
+
+$(document).ready(function(){
+  $('#hexagon').delay(3500).fadeIn(3000);
+});
+
