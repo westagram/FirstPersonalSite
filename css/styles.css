@@ -49,6 +49,32 @@ h2 {
 
 }
 
+#indexBar {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+/*    display: inline-block;*/
+    color: white;
+    background: rgba(140,140,140,0.7);
+    font-size:20px;
+    position: relative;
+
+    
+    
+    
+    border: 1px solid white;
+    border-radius: 26px;
+    transition: .5s;
+}
+
+
+
+
 a {
   text-decoration: none;
 }
@@ -94,7 +120,13 @@ to{border-right-color: transparent;}
 
 
 
-
+#indexPageBar{
+    margin: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
 
 
 
@@ -120,7 +152,6 @@ to{border-right-color: transparent;}
   width: 60px;
   transform-origin: center;
   transform: scale(1.5); 
-  display:none;
   /* z-index: -1; */
   box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
@@ -1106,8 +1137,8 @@ p.description {
 .aboutInfo {
   position: absolute;
   margin-left: auto;
-  margin-right: auto;
-  /* left: 0; */
+  margin-right: 300;
+/*   left: 0; */
   right: 20;
   top: 120px;
   white-space: nowrap;
@@ -1120,6 +1151,9 @@ p.description {
   text-shadow: 2px 2px 1px #000000;
 }
 
+#fadeAboutMessage {
+/*    display:none;*/
+}
 
 #aboutMessage {
   position: absolute;
@@ -1129,6 +1163,7 @@ p.description {
   right: 0;
   top: 200px;
   white-space: nowrap;
+/*  display:none;*/
 
   font-family: 'Cormorant', serif;
   font-weight: bold;
@@ -1139,12 +1174,25 @@ p.description {
   text-shadow: 2px 2px 1px #000000;
 }
 
+#aboutMessage a {
+    transition: .5s;
+}
+
+
 #aboutMessage a:link{
-  color: red;
+  color: #F08080;
 }
 
 #aboutMessage a:visited{
-  color: red;
+  color: #F08080;
+}
+
+#aboutMessage a:link:hover{
+    color: #FFFF00;
+}
+
+#aboutMessage a:visited:hover{
+    color: #FFFF00;
 }
 
 #AboutPageBar {
