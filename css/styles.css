@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url('http://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Cormorant');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -615,6 +615,10 @@ p.description {
   /* margin-bottom: 50; */
 }
 
+#blank {
+    margin-bottom: 50px;
+}
+
 #headerParallax{
   background-image: url('../images/ResumePage.jpg');
   height: 700; 
@@ -706,6 +710,8 @@ p.description {
   font-size: 50;
   color: white;
   margin-top: 100;
+  text-shadow: 2px 2px 1px #000000;
+
 }
 
 #pageBar {
@@ -864,6 +870,8 @@ p.description {
   font-size: 20;
   color: white;
   margin-top: 100;
+  text-shadow: 2px 2px 1px #000000;
+
 }
 
 #contactBar {
@@ -1062,9 +1070,10 @@ p.description {
 /**/
 /*}*/
 
-#photography #dance h3 {
+#photography h3, #danceRow h3, #car h3 {
   margin-top: 0;
   margin-bottom: 30;
+  font-family: 'Cormorant', serif;
 }
 
 #car img {
