@@ -16,9 +16,9 @@ $(window).on("load",function() {
   });
 
 
-//$(document).ready(function(){
-//  $('#hexagon').delay(3500).fadeIn(3000);
-//});
+$(document).ready(function(){
+  $('#indexBar').delay(3500).fadeTo(1000, 1);
+});
 
 $(document).ready(function(){
   $('#fadeAboutMessage').fadeIn(3000);

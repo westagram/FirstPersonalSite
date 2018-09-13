@@ -52,28 +52,30 @@ h2 {
 #indexBar {
     margin-left: auto;
     margin-right: auto;
+    top: 240px;
     left: 0;
     right: 0;
-    width: 300px;
+    width: 200px;
     height: 50px;
     line-height: 50px;
     text-align: center;
-/*    display: inline-block;*/
-    color: white;
-    background: rgba(140,140,140,0.7);
+    color: black;
     font-size:20px;
-    position: relative;
+    position: absolute;
 
-    
-    
-    
-    border: 1px solid white;
-    border-radius: 26px;
-    transition: .5s;
+    display:none;
+
+    border: 1px solid black;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 0;
+
 }
 
-
-
+#indexBar:hover{
+    color: white;
+    background: black;
+}
 
 a {
   text-decoration: none;
@@ -145,7 +147,7 @@ to{border-right-color: transparent;}
 #hexagon {
   position: relative;
   /* position: fixed; */
-  top: 350px;
+  top: 400px;
   left: 50%;
   margin-top: -100px;
   margin-left: -30px;
@@ -1004,18 +1006,37 @@ p.description {
   /* filter: contrast(150%); */
 }
 
+#lifestyle .row img {
+    width: 200;
+    height: 135;
+    background-size: cover;
+    filter: grayscale(60%) brightness(65%) contrast(120%);
+    transition: .5s;
+}
+
+#lifestyle .row img:hover {
+    filter: none;
+}
+
+#lifestyle{
+    text-align: center;
+    white-space: nowrap;
+}
 
 .danceText{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 1px black;
+/*  opacity: 0;*/
 }
 
 .danceContainer {
   position: relative;
   text-align: center;
   color: white;
+  display:inline-block
 }
 
 #danceRow img {
@@ -1024,28 +1045,24 @@ p.description {
   background-size: cover;
   filter: grayscale(60%) brightness(65%) contrast(120%);
   transition: .5s;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+  cursor: pointer;
 }
 
+/*#danceRow img:hover {*/
+/*    filter: grayscale(60%) brightness(85%) contrast(120%);*/
+/*}*/
+/**/
+/*#danceRow #danceText:hover{*/
+/*    opacity: 1;*/
+/*}*/
 
-#lifestyle .row img {
-  width: 200;
-  height: 135;
-  background-size: cover;
-  filter: grayscale(60%) brightness(65%) contrast(120%);
-  transition: .5s;
-}
+/*.danceContainer:hover .danceImg{*/
+/*    filter: grayscale(60%) brightness(85%) contrast(120%);*/
+/**/
+/*}*/
 
-#lifestyle .row img:hover {
-  filter: none;
-}
-
-#lifestyle{
-  text-align: center;
-  white-space: nowrap;
-}
-
-#photography h3 {
+#photography #dance h3 {
   margin-top: 0;
   margin-bottom: 30;
 }
@@ -1144,6 +1161,7 @@ p.description {
   white-space: nowrap;
 
   font-family: 'Cormorant', serif;
+
   font-weight: bold;
   font-size: 50;
   color: white;
