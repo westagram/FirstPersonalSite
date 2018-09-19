@@ -13,6 +13,10 @@ and (max-device-width : 1024px)  {
 #photographyParallax #carParallax{
     background-attachment: unset !important;
     background-position: center top !important; }
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
