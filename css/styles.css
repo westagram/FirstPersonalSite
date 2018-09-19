@@ -4,10 +4,13 @@
 
 
 
-@media only screen 
+@media screen 
 and (min-device-width : 320px) 
 and (max-device-width : 1024px)  {  
-.sp-page-builder .page-content #noparallax {
+#headerParallax #educationParallax 
+#experienceParallax #leadershipParallax 
+#curricularParallax #lifestyleParallax 
+#photographyParallax #carParallax{
     background-attachment: unset !important;
     background-position: center top !important; }
 }
